@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_login"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputUserId"
+            android:hint="User ID"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/login_button"
+
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="Login"
+            android:id="@+id/login_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/inputUserId"
+            android:layout_above="@+id/inputIP"
+            android:onClick="loginValidate"
+            ></Button>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentIP"
+            android:layout_below="@+id/login_button"
+            android:layout_above="@+id/inputIP"></TextView>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputIP"
+            android:hint="Configure IP Addr Here If Needed"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/currentIP"
+            android:layout_above="@+id/newIP"
+            ></EditText>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newIP"
+            android:layout_below="@+id/inputIP"></TextView>
+
+    </TableLayout>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appbar"
+
+
+
+            android:hint="@string/searchHintMsg"
+            android:inputType="textPersonName" />
+        <Button
+            android:id="@+id/sendSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/appbar"
+            android:text="@string/Search"
+            android:layout_alignEnd="@+id/editText"/>
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/search_result_list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText" />
+
+    </RelativeLayout>
+

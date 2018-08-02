@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.waiki.testui.SelectedRestaurant">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                android:id="@+id/selectResAppBar">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            </android.support.design.widget.AppBarLayout>
+
+            <include layout="@layout/content_selected_restaurant"
+                android:id="@+id/include2" />
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectResAppBar"
+                android:src="@drawable/hkrice"
+                />
+
+            <TextView
+                android:id="@+id/labelResNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView2"
+                android:text="@string/resNameLabel"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/resNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_below="@+id/labelResNameText"
+                android:padding="2dp"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/labelAreaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/resNameText"
+                android:text="@string/areaLabel"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/areaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelAreaText"
+                android:text="TextView"
+                android:padding="2dp"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:id="@+id/labelAddressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/areaText"
+                android:text="@string/addressLabel"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/addressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelAddressText"
+                android:text="TextView"
+                android:padding="2dp"
+                android:textSize="13dp"/>
+
+
+            <TextView
+                android:id="@+id/labelMinPriceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addressText"
+                android:text="@string/minPriceLabel"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/minPriceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelMinPriceText"
+                android:text="TextView"
+                android:padding="2dp"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:id="@+id/labelNoGoodReviewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/minPriceText"
+                android:text="@string/noGoodReviewLabel"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/noGoodReviewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelNoGoodReviewText"
+                android:text="TextView"
+                android:padding="2dp"
+                android:textSize="13dp"
+                android:textColor="@android:color/holo_green_dark"/>
+
+
+            <TextView
+                android:id="@+id/labelNoBadReviewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/noGoodReviewText"
+                android:text="@string/noBadReviewLabel"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/noBadReviewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelNoBadReviewText"
+                android:text="TextView"
+                android:padding="2dp"
+                android:textSize="13dp"
+                android:textColor="@android:color/holo_red_light"/>
+
+            <TextView
+                android:id="@+id/labelDishNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/noBadReviewText"
+                android:text="@string/dishNameLabel"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/dishNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelDishNameText"
+                android:text="TextView"
+                android:padding="2dp"
+                android:textSize="13dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewComment"
+                android:layout_below="@id/dishNameText"
+                android:text="View All Comment"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

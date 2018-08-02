@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectResAppBar"
+        android:src="@drawable/hkrice"
+        />
+
+    <TextView
+        android:id="@+id/labelResNameText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:text="@string/resNameLabel"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:padding="2dp"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/resNameText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/labelResNameText_1"
+        android:padding="2dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/labelAreaText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resNameText_1"
+        android:text="@string/areaLabel"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/areaText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelAreaText_1"
+        android:text="TextView"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/labelAddressText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/areaText_1"
+        android:text="@string/addressLabel"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/addressText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelAddressText_1"
+        android:text="TextView"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/labelMinPriceText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minPriceLabel"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp"
+        android:layout_alignBaseline="@+id/resNameText"
+        android:layout_alignBottom="@+id/resNameText"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/minPriceText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelMinPriceText_1"
+        android:text="TextView"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/labelNoGoodReviewText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minPriceText_1"
+        android:text="@string/noGoodReviewLabel"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/noGoodReviewText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelNoGoodReviewText_1"
+        android:text="TextView"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@android:color/holo_green_dark"/>
+
+
+    <TextView
+        android:id="@+id/labelNoBadReviewText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noGoodReviewText_1"
+        android:text="@string/noBadReviewLabel"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/noBadReviewText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelNoBadReviewText_1"
+        android:text="TextView"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <TextView
+        android:id="@+id/labelDishNameText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noBadReviewText_1"
+        android:text="@string/dishNameLabel"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/dishNameText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelDishNameText_1"
+        android:text="TextView"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/colorBlack"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewComment_1"
+        android:layout_below="@id/dishNameText_1"
+        android:text="View All Comment"/>
+
+
+</LinearLayout>

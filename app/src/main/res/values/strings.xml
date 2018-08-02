@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestUI</string>
+    <string name="searchHintMsg">Enter the keyword to search.</string>
+    <string name="Search">Search</string>
+    <string name="action_settings">Set IP address</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_selected_restaurant">SelectedRestaurant</string>
+    <string name="resNameLabel">Restaurant Name: </string>
+    <string name="areaLabel">Area located: </string>
+    <string name="addressLabel">Address:\t\t </string>
+    <string name="minPriceLabel">Suggested minimum \nexpenses per head (RM): </string>
+    <string name="noGoodReviewLabel">No. good reviews:</string>
+    <string name="noBadReviewLabel">No. bad reviews:</string>
+    <string name="dishNameLabel">Sign dish/ famous dish: </string>
+    <string name="viewAll">View All </string>
+    <string name="history">History </string>
+    <string name="profile">Profile </string>
+    <item name="pass_tag" type="id"></item>
+</resources>

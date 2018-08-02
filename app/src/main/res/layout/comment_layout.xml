@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <include
+        android:id="@+id/include_comment"
+        layout="@layout/comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_weight="0.91"></include>
+
+    <include
+        android:id="@+id/include_feedback"
+        layout="@layout/comment_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></include>
+
+</LinearLayout>
