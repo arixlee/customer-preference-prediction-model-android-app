@@ -11,3 +11,7 @@ further instructions and steps to deploy the app and server, please refer to ser
 
 server code link: https://github.com/arixlee/customer-preference-prediction-model-server
 <br>demo video link: https://drive.google.com/open?id=1aJPlYCPQ_t8MT0g20JbY0WvI3EwM57rH
+
+
+# Sample screenshoot
+<img src="https://preview.ibb.co/mmOvwK/Screenshot_1533263708.png" alt="Screenshot_1533263708" border="0">
